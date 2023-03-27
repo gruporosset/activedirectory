@@ -1,6 +1,6 @@
 {
   "author": "George Heeres <gheeres@gmail.com>",
-  "name": "activedirectory",
+  "name": "activedirectory_rosset",
   "version": "0.7.2",
   "description": "ActiveDirectory is an ldapjs client for authN (authentication) and authZ (authorization) for Microsoft Active Directory with range retrieval support for large Active Directory installations.",
   "main": "index.js",
@@ -18,10 +18,10 @@
     "url": "https://github.com/gheeres/node-activedirectory/issues"
   },
   "dependencies": {
-    "async": ">= 0.1.22",
-    "bunyan": ">= 1.3.5",
-    "ldapjs": ">= 0.7.1",
-    "underscore": ">= 1.4.3"
+    "async": "^0.1.22",
+    "bunyan": "^1.3.5",
+    "ldapjs": "^3.0.1",
+    "underscore": "^1.4.3"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^10.2.0"
   }
 }
